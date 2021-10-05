@@ -42,7 +42,7 @@ const App = () => {
     </div> }
     <div>
       <ul className="ul">
-        <p><h2> See your Search Result Hear:</h2></p>
+        <p><h2> See your Search Result Here:</h2></p>
         {movies.map(movie => <Movie movie={movie} key={movie.imdbID} details={getDetails}/>) }
       </ul>
     </div>
