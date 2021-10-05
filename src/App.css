@@ -1,0 +1,80 @@
+.movieInfo {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-left: 4px solid #5E5E5E;
+    background-color: #FCFAF9;
+    /* display: inline; */
+    margin: 2vw;
+    align-items: center;
+    align-content: center; 
+    /* justify-content: space-between; */
+    width:auto; 
+    height:auto;
+}
+.movieInfo:hover{
+    background-color: #fff1ea;
+
+}
+.movieResult{
+    padding: 2rem;
+}
+.ul{
+    background-color: #F3D3BD;
+    padding: 5px;
+}
+.ul,p{
+    margin-left: 3px;
+}
+.srcImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    box-shadow: 5px 5px 10px 0 black;
+    z-index: 2px;
+
+}
+.form{
+    background-color: #5E5E5E;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: rem auto;
+    min-width: 350px;
+    padding: 15px;
+    border-radius: 2px;
+    border:none;
+}
+.input{
+    font-size: 18px;
+    
+}
+.inputSearch{
+    background-color: #FCFAF9;
+    color: #333333;
+    width: 50%;
+    height: auto;
+}
+.inputBtn{
+    background-color: #f1d8da;
+    height: auto;
+}
+.OnClickDetail{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: 500px;
+}
+.OnClickDetail,p{
+    font-style: italic;
+    font-weight: 550;
+    color: rgb(74, 73, 73);
+}
+.OnClickDetailOutput{
+    font-style: italic;
+    font-weight: 600;
+}
